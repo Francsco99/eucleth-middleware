@@ -1,5 +1,5 @@
 {
-  "name": "@francsco99/eucleth-miffdleware",
+  "name": "@francsco99/eucleth-middleware",
   "version": "0.1.0",
   "description": "Shared middleware and utilities for eucleth services",
   "main": "dist/index.js",
