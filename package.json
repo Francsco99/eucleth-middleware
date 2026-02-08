@@ -1,0 +1,19 @@
+{
+  "name": "@francsco99/eucleth-miffdleware",
+  "version": "0.1.0",
+  "description": "Shared middleware and utilities for eucleth services",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "type": "commonjs",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -r src/* dist/",
+    "test": "node -e \"console.log('ok')\""
+  },
+  "dependencies": {
+    "cookie": "^0.7.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "MIT"
+}
