@@ -1,19 +1,19 @@
 {
   "name": "@francsco99/eucleth-middleware",
-  "version": "0.1.0",
-  "description": "Shared middleware and utilities for eucleth services",
-  "main": "dist/index.js",
-  "files": ["dist"],
-  "type": "commonjs",
-  "scripts": {
-    "build": "rm -rf dist && mkdir -p dist && cp -r src/* dist/",
-    "test": "node -e \"console.log('ok')\""
-  },
-  "dependencies": {
-    "cookie": "^0.7.1"
+  "version": "1.0.0",
+  "description": "Shared DB helpers and auth middleware for eucleth services",
+  "main": "src/index.js",
+  "files": ["src"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francsco99/eucleth-middleware.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "license": "MIT"
+  "dependencies": {
+    "cookie": "^1.0.2",
+    "pg": "^8.16.0"
+  }
 }
